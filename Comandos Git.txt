@@ -1,0 +1,35 @@
+cd - Abrir carpeta
+c .. - Salir de carpeta
+mkdir - Crear Carpeta 
+ls - ver carpetas creadas
+clear - limpiar historial
+touch - crear archivos 
+rm - eliminar archivos
+rm -rf - borrar carpetas 
+Esc + :wq y enter - salir y guardar cambios
+:q! - salir sin guardar
+git init - crear repositorios
+git commit - agregar archivos al repositorio
+git log - ver que archivos fueron agregados al repositorio 
+git tag -a version -m 'anotacion' - agregar etiquetas 
+git tag -l - ver etiquetas agregadas
+git tag -d - borrar etiqueta
+git tag -f -a renombrar etiquetas y colocar anotaciones
+git log --oneline - reducir la cantidad de caracteres de los commits
+git log --online --graph - agregar asterisco
+git log -numero de commit - buscar commit que quieras ver
+git diff - comparar cambios en commits 
+git diff sha1 sha2 - comparar
+git reset 
+git reset --soft - quitar cambios pero queda en estage
+git reset --mixed - quitar commits y quitar esos archivos que estan en estage 
+git reset --hard - devolver al commit que uno le indique con el sha, quita los archivos del estage y quita lo archivos del working directory
+git add . - agregar varios archivos al estage
+git config --global core.editor "nombredeeditor --wait"
+git branch nombrederama - crear rama
+git branch -l - ver lista de ramas
+git branch -D nombrederama - fuerza la eliminacion de una rama
+git branch -d - elimina una rama
+git bracnh -m - renombrar una rama
+git checkout - moverse entre ramas
+git checkout -b - crear una rama y navegar dentro de esa rama
