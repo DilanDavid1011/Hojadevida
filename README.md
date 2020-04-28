@@ -1,4 +1,4 @@
-# **Hola de vida**
+# **Hoja de vida**
 # **Dilan David Barrios Acosta**
 ### Analista y desarrollador de sistemas de información
 ![imagen](dilan.jpg)
